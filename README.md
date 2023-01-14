@@ -37,5 +37,5 @@ Oracle Cloud Infrastructure will provide you with a 4-core 3GHz ARM machine with
 
 ### Now what?
 
-* You could put a minecraft server on it (WIP).
+* You could put a [minecraft server](https://github.com/Fitzsimmons/minecraft_server) on it.
 * You could put a [mastodon instance](https://github.com/l3ib/mastodon-ansible) on it.
