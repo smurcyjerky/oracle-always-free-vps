@@ -31,7 +31,7 @@ Oracle Cloud Infrastructure will provide you with a 4-core 3GHz ARM machine with
 1. Copy `example.tfvars` to `terraform.tfvars` and modify it as needed, likely to just add your own ssh key. The defaults for variables are intended to use the full capacity of the Always Free tier. If this is not what you want, see the full list of variables in `variables.tf`. The region for the instance will be the default region supplied in your `~/.oci/config`.
 1. Launch the instance and networking infrastructure:
     ```
-    terraform apply -var-file=mastodon.tfvars
+    terraform apply -var-file=terraform.tfvars
     ```
 1. Terraform has printed the public IP address of your instance, so you can SSH to it, point DNS at it, etc.
 
